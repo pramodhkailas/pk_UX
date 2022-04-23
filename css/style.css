@@ -1,0 +1,38 @@
+body{
+    margin: 0,auto;
+}
+.navigation_bar{
+    background-color: gray;
+    display: block;
+    float: left;
+    width: 1300px;
+    font-family: arial;
+    font-size: 16px;
+}
+.main{
+    display: block;
+    width:  1300px;
+}
+.links
+{
+    display: inline-block;
+    padding: 10px;
+    background-color: darkgray;
+}
+.left{
+    float: left;
+    width: 200px;
+    background-color: lightgray;
+    padding: 20px;
+    border-color: darkgray;
+    border-style: solid;border-width: thin;
+     
+}
+.right{
+    float: left;
+    width: 1100px;
+    background-color: lightgray;
+    padding: 20px;
+    border-color: darkgray;
+    border-style: solid;border-width: thin;
+}
