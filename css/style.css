@@ -1,17 +1,22 @@
 body{
-    margin: 0,auto;
+     width: 1400px;
+     margin: 0 auto;
+     font-family: arial;
+     fint-sixe:16px;
+    
 }
 .navigation_bar{
     background-color: gray;
     display: block;
     float: left;
-    width: 1300px;
+    width: 1400px;
     font-family: arial;
     font-size: 16px;
 }
 .main{
     display: block;
     width:  1400px;
+    height: 700px;
 }
 .links
 {
@@ -22,17 +27,23 @@ body{
 .left{
     float: left;
     width: 200px;
-    background-color: lightgray;
-    padding: 20px;
-    border-color: darkgray;
+    border-color: red;
     border-style: solid;border-width: thin;
-     
+}
+.left1{
+background-color: orange;
+padding:10px;
+height: 30%;
+
+
+
 }
 .right{
     float: left;
-    width: 1015px;
+    width: 1155px;
     background-color: lightgray;
     padding: 20px;
     border-color: darkgray;
     border-style: solid;border-width: thin;
+    height: 60%;
 }
